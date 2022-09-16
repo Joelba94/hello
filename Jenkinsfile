@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                git 'https://github.com/Joelba94/hello.git'
+                sh 'ls -ltr'
             }
         }
     }
