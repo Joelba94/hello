@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                git branch: 'mian', url: 'https://github.com/Joelba94/hello.git'
+                git 'https://github.com/Joelba94/hello.git'
             }
         }
     }
